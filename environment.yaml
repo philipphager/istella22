@@ -1,0 +1,12 @@
+name: istella22
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - pyarrow
+  - numpy
+  - scikit-learn
+  - typer
+  - pip=21.2.4
