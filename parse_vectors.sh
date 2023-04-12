@@ -3,6 +3,6 @@
 
 BASE_DIR="/ivi/ilps/datasets/istella22"
 
-python main.py $BASE_DIR train
-python main.py $BASE_DIR val
-python main.py $BASE_DIR test
+python main.py parse-vectors $BASE_DIR train
+python main.py parse-vectors $BASE_DIR valid
+python main.py parse-vectors $BASE_DIR test
